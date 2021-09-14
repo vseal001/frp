@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vseal001/my-frp/pkg/auth"
-	"github.com/vseal001/my-frp/pkg/config"
-	"github.com/vseal001/my-frp/pkg/util/log"
-	"github.com/vseal001/my-frp/pkg/util/util"
-	"github.com/vseal001/my-frp/pkg/util/version"
-	"github.com/vseal001/my-frp/server"
+	"github.com/vseal001/frp/pkg/auth"
+	"github.com/vseal001/frp/pkg/config"
+	"github.com/vseal001/frp/pkg/util/log"
+	"github.com/vseal001/frp/pkg/util/util"
+	"github.com/vseal001/frp/pkg/util/version"
+	"github.com/vseal001/frp/server"
 
 	"github.com/spf13/cobra"
 )
@@ -95,7 +95,7 @@ func init() {
 
 var rootCmd = &cobra.Command{
 	Use:   "frps",
-	Short: "frps is the server of frp (https://github.com/vseal001/my-frp)",
+	Short: "frps is the server of frp (https://github.com/vseal001/frp)",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		if showVersion {
 			fmt.Println(version.Full())

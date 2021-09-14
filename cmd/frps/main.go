@@ -20,8 +20,8 @@ import (
 
 	"github.com/fatedier/golib/crypto"
 
-	_ "github.com/vseal001/my-frp/assets/frps"
-	_ "github.com/vseal001/my-frp/pkg/metrics"
+	_ "github.com/vseal001/frp/assets/frps"
+	_ "github.com/vseal001/frp/pkg/metrics"
 )
 
 func main() {

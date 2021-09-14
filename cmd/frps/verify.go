@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vseal001/my-frp/pkg/config"
+	"github.com/vseal001/frp/pkg/config"
 
 	"github.com/spf13/cobra"
 )
