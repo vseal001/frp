@@ -17,8 +17,8 @@ package proxy
 import (
 	"fmt"
 
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/msg"
+	"github.com/vseal001/frp/pkg/config"
+	"github.com/vseal001/frp/pkg/msg"
 
 	"github.com/fatedier/golib/errors"
 )

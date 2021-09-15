@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/test/e2e/framework"
-	"github.com/fatedier/frp/test/e2e/framework/consts"
-	"github.com/fatedier/frp/test/e2e/pkg/request"
+	"github.com/vseal001/frp/pkg/util/log"
+	"github.com/vseal001/frp/test/e2e/framework"
+	"github.com/vseal001/frp/test/e2e/framework/consts"
+	"github.com/vseal001/frp/test/e2e/pkg/request"
 
 	. "github.com/onsi/ginkgo"
 )

@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/fatedier/frp/assets"
-	frpNet "github.com/fatedier/frp/pkg/util/net"
+	"github.com/vseal001/frp/assets"
+	frpNet "github.com/vseal001/frp/pkg/util/net"
 
 	"github.com/gorilla/mux"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

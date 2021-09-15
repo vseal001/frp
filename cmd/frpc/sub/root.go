@@ -25,11 +25,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/fatedier/frp/client"
-	"github.com/fatedier/frp/pkg/auth"
-	"github.com/fatedier/frp/pkg/config"
-	"github.com/fatedier/frp/pkg/util/log"
-	"github.com/fatedier/frp/pkg/util/version"
+	"github.com/vseal001/frp/client"
+	"github.com/vseal001/frp/pkg/auth"
+	"github.com/vseal001/frp/pkg/config"
+	"github.com/vseal001/frp/pkg/util/log"
+	"github.com/vseal001/frp/pkg/util/version"
 
 	"github.com/spf13/cobra"
 )
